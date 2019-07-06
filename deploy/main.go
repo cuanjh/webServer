@@ -17,7 +17,7 @@ func reLaunch() {
 }
 
 func firstPage(w http.ResponseWriter, r *http.Request)  {
-	io.WriteString(w, "<h1>Hello world, ha ha!</h1>")
+	io.WriteString(w, "<h1>Hello world, ha ha! I am chuichui</h1>")
 	reLaunch()
 }
 
