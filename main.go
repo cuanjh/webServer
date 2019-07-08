@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func firstPage(w http.ResponseWriter, r *http.Request)  {
+func firstPage(w http.ResponseWriter, r *http.Request) {
 	io.WriteString(w, "<h1>Hello world, chui</h1>")
 }
 
